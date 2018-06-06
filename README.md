@@ -2,7 +2,7 @@
 
 A simple widget that displays a user's currently played song on [last.fm](http://last.fm).
 
-This wirk is based on the [Last.fm Now Playing Widget by cj123](https://github.com/cj123/lastfm-nowplaying-widget) (MIT-License)
+This work is based on the [Last.fm Now Playing Widget by cj123](https://github.com/cj123/lastfm-nowplaying-widget) (MIT-License)
 
 ## Usage
 
