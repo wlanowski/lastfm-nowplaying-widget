@@ -15,9 +15,9 @@ $track['time']   time in uts, added by wlanowski
 ?>
 <!DOCTYPE HTML>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base target="_parent">
     <title><?php echo $username; ?> auf last.fm</title>
 
