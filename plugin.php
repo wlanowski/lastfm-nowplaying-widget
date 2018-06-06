@@ -18,13 +18,16 @@ $track['time']   time in uts, added by wlanowski
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
+    <base target="_parent">
     <title><?php echo $username; ?> auf last.fm</title>
 
     <!-- Font Awesome with Brands -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css" integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css"
+          integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css"
+          integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css"
+          integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="include/widget.css">
@@ -39,19 +42,19 @@ $track['time']   time in uts, added by wlanowski
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
-    <?php if($autorefresh) { ?><meta http-equiv="refresh" content="100"><?php } ?>
+    <?php if ($autorefresh) { ?>
+        <meta http-equiv="refresh" content="100"><?php } ?>
 </head>
 
 <body>
 <div class="outer" id="outer">
     <div class="background">
         <div class="heavenbox" id="heavenbox">
-            <a href="https://last.fm/user/<?php echo $username;?>"><i class="fab fa-lastfm awesome-big"></i></a>
-            <a href="https://github.com/wlanowski/lastfm-nowplaying-widget"><i class="fab fa-github awesome-big"></i></a>
-            <!--
-                        <i class="fa fa-lastfm-square>"
-                        <i class="fa fa-github-square>"
-            -->
+            <a href="https://last.fm/user/<?php echo $username; ?>"<i
+                        class="fab fa-lastfm awesome-big"></i></a>
+            <a href="https://github.com/wlanowski/lastfm-nowplaying-widget"><i
+                        class="fab fa-github awesome-big"></i></a>
+
         </div>
         <div class="infobox" id="infobox">
             <div class="songname">

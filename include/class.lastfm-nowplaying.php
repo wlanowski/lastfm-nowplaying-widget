@@ -106,8 +106,8 @@ class lastfm_nowplaying
 
     private function is_too_long($string)
     {
-        if (strlen($string) >= 40) {
-            return '<marquee direction="left" behavior="scroll" scroll="on" scrollamount="20">' . $string . '</marquee>';
+        if (strlen($string) >= 25) {
+            return '<marquee direction="left" behavior="scroll" scroll="on" scrollamount="15">' . $string . '</marquee>';
         } else {
             return $string;
         }
